@@ -1,0 +1,80 @@
+.nav-item .nav-link {
+    color: #ffff;
+}
+
+.nav-item .nav-link:hover {
+    color: #c83c44;
+    transition: .4s;
+}
+
+.container .navbar-brand {
+    color: #c83c44 !important;
+    font-weight: bold;
+}
+
+.container .btn-order {
+    background-color: #E1535A;
+    color: #ffff;
+}
+
+.container .btn-order:hover {
+    background-color: #c83c44;
+}
+
+#main .carousel-inner img {
+    max-height: 91vh;
+    object-fit: cover; /* Maintain the aspect ratio of the image */
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute; /* expands to the full width and height of the carousel */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* contrast of the text above the carousel */
+    color: #ffff;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+/* --- Menu section -- */
+
+h2 {
+    color: #c83c44;
+}
+
+.card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+.card .price-food {
+    color: #c83c44;
+    font-weight: bold;
+}
+
+.badges {
+    text-align: right;
+}
+
+/* --- About us section -- */
+
+
+
+#footer {
+    background: linear-gradient(90deg, #c83c44, #DD434B 25%, #EB5961);
+}
+
+#footer a {
+    color: #ffff;
+}
